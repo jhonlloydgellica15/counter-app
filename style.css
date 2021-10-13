@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  background-image: url(./people.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 500px;
+  height: 600px;
+  background: #3c3c3c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+}
+.header {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.number {
+  margin-top: 2rem;
+  font-size: 5rem;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+  border: none;
+  margin-top: 0.8rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary {
+  background: rgb(15, 60, 209);
+  color: white;
+}
+
+.btn-secondary {
+  background: rgb(21, 129, 35);
+  color: white;
+}
+
+.btn-danger {
+  background: rgb(214, 21, 21);
+  color: white;
+}
+
+.entered {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.peopleEntered {
+  display: flex;
+}
